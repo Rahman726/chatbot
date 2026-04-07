@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdul's Agent</title>
+    <link rel="stylesheet" href="AI.css" />
+  </head>
+  <body>
+    <!-- Floating Chat Icon -->
+    <div id="chatbot-icon">👨‍💻</div>
+
+    <!-- Login Container -->
+    <div id="login-container">
+      <div id="login-box">
+        <h2>Welcome to Abdul's Agent</h2>
+        <p>Please enter your username to continue</p>
+        <input type="text" id="username-input" placeholder="Enter username..." />
+        <button id="login-btn">Login</button>
+      </div>
+    </div>
+
+    <!-- Chatbot Container -->
+    <div id="chatbot-container" class="hidden">
+      <div id="chatbot-header">
+        <span>Abdul's Agent</span>
+        <button id="save-btn" title="Save Chat">💾</button>
+      </div>
+      <div id="chatbot-body">
+        <div id="chatbot-messages"></div>
+      </div>
+      <div id="chatbot-input-container">
+        <input type="text" id="chatbot-input" placeholder="Type a message..." />
+        <button id="send-btn">✔</button>
+      </div>
+    </div>
+
+    <script src="AI.js"></script>
+  </body>
+</html>
